@@ -1,0 +1,6 @@
+name: Prototype2
+version: ${project.version}
+main: com.github.ms5984.economy.prototype2.bukkit.Prototype2Bukkit
+load: STARTUP
+authors: [ ms5984 ]
+description: A fresh start at Economy in Minecraft.
