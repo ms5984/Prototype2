@@ -1,10 +1,7 @@
 package com.github.ms5984.economy.prototype2.api;
 
-import org.jetbrains.annotations.Contract;
-
 import java.util.Collections;
 import java.util.List;
-import java.util.UUID;
 
 public interface Prototype2 {
     /**
@@ -13,16 +10,6 @@ public interface Prototype2 {
      */
     default List<Entity> getEntities() {
         return Collections.emptyList();
-    }
-
-    /**
-     * Used to deserialize stored Entity references.
-     * @param entityUid from data store
-     * @return the associated Entity object
-     */
-    @Contract("null -> null")
-    default Entity getEntityByUid(UUID entityUid) {
-        return null;
     }
 
     /**
@@ -42,17 +29,6 @@ public interface Prototype2 {
      */
     default List<Currency> getCurrencies() {
         return Collections.emptyList();
-    }
-
-    /**
-     * Used to deserialize stored Currency references.
-     *
-     * @param currencyId from data store
-     * @return the associated currency object (returns null if not found)
-     */
-    @Contract("null -> null")
-    default Currency getCurrencyByUid(UUID currencyId) {
-        return null;
     }
 
     default boolean isEnabled() {

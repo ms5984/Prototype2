@@ -11,7 +11,7 @@ public interface Wallet extends Balance {
     /**
      * You might want to customize the behavior of wallets,
      * deciding perhaps that a full wallet no longer can accept monies.
-     * This method allows for that logic to implemented within
+     * This method allows for that logic to be implemented within
      * Prototype2 config irrespective of the platform implementation.
      *
      * @return false unless Wallet is of limited capacity and is full
