@@ -1,3 +1,6 @@
+##### \[PROJECT INACTIVE]
+This repository is now available under the MIT License terms for free use in derivative works.
+
 ## A new system of Economy
 
 Have you wanted to write plugins that
